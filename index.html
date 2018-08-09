@@ -7,17 +7,23 @@
   <link rel="stylesheet" href="lightbox.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Lightbox Assignment</h1>
-    <!-- Stretch goals: Search images -->
-    <!--   <form class="search-form" action="">
-      <input class="search-input" type="text">
-      <button class="submit-button" type="submit">Submit</button>
-    </form> -->
-
-    <div class="row">  
-      <div id="photogrid" class="image-thumbnails"></div>
+  <!-- Stretch goals: Search images -->
+  <!--   <form class="search-form" action="">
+    <input class="search-input" type="text">
+    <button class="submit-button" type="submit">Submit</button>
+  </form> -->
+  <div class="inactive" id="lightbox-wrapper">
+    <div class="lightbox-content">
+      <a href="#" class="lightbox-nav lightbox-nav_dismiss" id="lightbox-dismiss">&times;</a>
+      <a href="#" class="lightbox-nav lightbox-nav_prev" id="lightbox-prev">Previous</a>
+      <a href="#" class="lightbox-nav lightbox-nav_next" id="lightbox-next">Next </a>
+      <div class="lightbox-image_title" id="lightbox-image_title"> </div>
+      <div class="lightbox-image" id="lightbox-image_container"> </div>
     </div>
+  </div>
+  <div class="row">  
+  <h1>Lightbox Assignment</h1>
+    <div id="photogrid" class="image-thumbnails"></div>
   </div>
 </body>
 <script src="lightbox.js"></script>
