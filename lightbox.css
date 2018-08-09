@@ -1,0 +1,29 @@
+body {
+  background-image: url('assets/memphis-colorful.png');
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #555455;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.row {
+  max-width: 1024px;
+  margin: 0 auto; }
+.image-thumbnail {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 3px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  transition: all 0.2s ease; }
+  .image-thumbnail a {
+    display: block; }
+  .image-thumbnail:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 2px 10px rgba(85, 84, 89, 0.6); }
+
